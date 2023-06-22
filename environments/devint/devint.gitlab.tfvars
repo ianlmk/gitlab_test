@@ -1,0 +1,9 @@
+project_id            = "your-gcp-project-id"
+region                = "us-central1"
+zone                  = "us-central1-a"
+credentials           = "path-to-service-account-key.json"
+subnetwork_cidr       = "10.0.0.0/16"
+machine_type          = "n1-standard-2"
+source_image_family   = "ubuntu-2004-lts"
+service_account_email = "your-service-account-email"
+instance_count        = 3

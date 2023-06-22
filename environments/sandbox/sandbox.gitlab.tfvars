@@ -1,0 +1,9 @@
+project_id            = "your-gcp-project-id"
+region                = "<region>"
+zone                  = "<zone>"
+credentials           = "<path_to_service_account_key.json>"
+subnetwork_cidr       = "10.0.0.0/16"
+machine_type          = "<machine_type>"
+source_image_family   = "<gcp_image_rocky>"
+service_account_email = "<your_service_account_email>"
+instance_count        = 3
